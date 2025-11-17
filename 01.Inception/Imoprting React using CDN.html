@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namaste React</title>
+</head>
+<body>
+    <div id="root"></div>
+    <!-- CDNs are Content Delivery Networks -->
+    <!-- These are platforms where React is stored, and we bring that code into our project from there. -->
+
+    <!-- We include these files using script tags -->
+    <!-- You can get the required tags from this page -->
+    <!-- https://legacy.reactjs.org/docs/cdn-links.html -->
+
+
+    <!-- Below are the script tags -->
+    <!-- react.development.js contains the main React library -->
+    <script 
+    crossorigin src="https://unpkg.com/react@18/umd/react.development.js">
+    </script>
+
+
+    <!-- react-dom.development.js is the library that handles DOM-related tasks
+     it is needed whenever we want to update or interact with the DOM-->
+    <script 
+    crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js">
+    </script>
+
+
+    <!-- There are two kinds of developers:
+     1. Those who work on creating the React library itself
+     2. Those who use React to build applications-->
+
+
+     <script>
+        // Create an heading element using React.createElement()
+        const heading = React.createElement("h1", {}, "Hello World from React!");
+
+        // Get the root element using getElementById() and create a root using ReactDOM.createRoot()
+        const root = ReactDOM.createRoot(document.getElementById("root"));
+        
+        // Render the heading element to the root using root.render()
+        root.render(heading);
+     </script>
+
+</body>
+</html>
