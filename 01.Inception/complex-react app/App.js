@@ -10,7 +10,7 @@
  */
 
 /*
-*  par is a ReactElement, which is basically an object
+*  parent is a ReactElement, which is basically an object
 *  A ReactElement is just a JavaScript object that the browser can interpret
 *  ReactElement (object) → gets converted into HTML that the browser can read
 */
