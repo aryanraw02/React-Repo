@@ -1,0 +1,28 @@
+{
+  "name": "swiggy-app",
+  "version": "1.0.0",
+  "description": "This is food App by Aryan",
+  "homepage": "https://github.com/aryanraw02/React-Repo#readme",
+  "bugs": {
+    "url": "https://github.com/aryanraw02/React-Repo/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aryanraw02/React-Repo.git"
+  },
+  "license": "ISC",
+  "author": "Aryan Rawtani",
+  "type": "commonjs",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.1"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  }
+}
